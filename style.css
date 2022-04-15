@@ -1,0 +1,78 @@
+body {
+    background-color:burlywood;
+    display:grid;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 5rem 5rem;
+}
+.content {
+    display:flex;
+    background-color: white;
+    width:65vw;
+}
+.man {
+    background-color:rgb(65, 62, 71);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:35%;
+
+}
+.be{
+    margin: 3rem 2rem 0;
+    font-size:1.5rem;
+    font-weight:bold;
+}
+.respect{
+    margin: 0 2rem;
+    font-size:1.5rem;
+    font-weight: lighter;
+}
+.orange {
+    border-bottom: 3px solid rgb(211, 95, 52);
+    margin-right: 75%;
+    margin-left: 2rem;
+}
+.text .sex b{
+    font-size:1.5em;
+}
+.image img {
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    margin-left:2rem;
+    box-shadow: 2px 2px 6px 2px rgb(51, 48, 48);
+}
+.image {
+    display:flex;
+    gap:1rem;
+    margin-bottom:2rem;
+}
+.right {
+    width:65%;
+}
+.sex{
+    margin: 3rem 2rem 1rem;
+    font-size: 1.2em;
+}
+.attention {
+    margin: 0 2rem 2rem;
+    font-size: 1.2em;
+}
+.line{
+    border-bottom: 3px solid rgba(211, 211, 211, 0.2);
+    padding:0 0;
+}
+.sat {
+    display:flex;
+    justify-content:space-between;
+    margin: 1rem 2rem;
+}
+.sat .svg {
+    display:flex;
+    gap:5px;
+}
+.sat .twenty{
+    color:gray;
+}
